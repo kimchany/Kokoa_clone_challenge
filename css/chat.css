@@ -178,9 +178,18 @@
   background-image: linear-gradient(to right, #2bc0e4, #eaecc6);
 }
 
+.incoming-message .message__bubble:hover {
+  border-bottom-left-radius: 0px;
+  background-image: linear-gradient(to left, #ffc837, #ff8008);
+}
+
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
   background-image: linear-gradient(to left, #ffc837, #ff8008);
+}
+
+.sent-message .message__bubble:hover {
+  background-image: linear-gradient(to right, #2bc0e4, #eaecc6);
 }
 
 @keyframes incomingAnim {

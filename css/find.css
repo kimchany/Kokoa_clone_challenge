@@ -16,7 +16,6 @@
 .find .header-btn__title {
   display: block;
   margin-top: 20px;
-  font-size: 14px;
 }
 
 .find .header-btn__icon {
@@ -33,4 +32,17 @@
   font-size: 12px;
   opacity: 0.7;
   margin-bottom: 20px;
+}
+
+.header-btn {
+  color: black;
+}
+
+.header-btn:hover {
+  color: #fce006;
+  font-size: 15px;
+}
+
+.header-btn:hover .header-btn__icon {
+  font-size: 14px;
 }

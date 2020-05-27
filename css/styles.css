@@ -42,3 +42,7 @@ a {
 main {
   animation: fadeIn 0.5s ease-in-out;
 }
+
+.status .header {
+  animation: fadeIn 15s ease-in-out;
+}

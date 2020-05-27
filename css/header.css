@@ -25,3 +25,16 @@
   font-size: 22px;
   margin-right: 20px;
 }
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header {
+  animation: fade 1s ease-in-out;
+}
